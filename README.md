@@ -1,7 +1,7 @@
 # TikTokPets
 
 There are two different stages of the project, and they have yet to be linked together. The two parts will be linked together very shortly!
-This project is being hosted on Replit
+This project is being hosted on Replit.
 
 Note: The Play Game will currently not do anything when clicked.
 
