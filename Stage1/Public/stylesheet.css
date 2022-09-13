@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Inter:wght@400;600&display=swap');
+
+body{
+	font-family: 'Inter', sans-serif;
+}
+header{ /* Logo and My Videos Button*/
+	display: flex;
+	justify-content: space-between;
+	margin: 2em 2em 3em 2em;
+}
+main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+#logo{ /* TikTok Pets*/
+	font-size: 2rem;
+	font-family: 'Boogaloo', cursive;
+}
+
+#myvideos {
+  order: 3;
+}
+
+#redbluebox{ /* All content within the red-blue gradient box*/
+	font-size: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/*background-image: linear-gradient(to bottom right, rgba(238,29,82,0.9), rgb(105,201,208));*/
+	background-image: linear-gradient(110deg, rgba(238,29,82,0.9) 15%, rgb(105,201,208) 85%);
+	color: white;
+	width: 85%;
+	border-radius: 25px;
+	filter: drop-shadow(0 0 7.5px rgba(0,0,0,0.3));
+
+}
+.buttons{ /* To style the buttons*/
+	font-size: 1rem;
+	font-weight: bold;
+	background-color: rgba(238,29,82,0.9);
+	color: white;
+	border-radius: 15px;
+	width: 120px;
+	height: 45px;
+	filter: drop-shadow(0 0 5px rgba(0,0,0,0.3));
+}
+
+#boxheading{ /* "Submit a video" text*/
+	font-size: 1.25em;
+	font-weight: bold;
+	margin: 1.5em 0 1.5em 0;
+	
+}
+
+.textbox{ /* Where user enters input*/
+	border-radius: 20px;
+	width: 100%;
+	height: 50px;
+}
+
+.titleandinput{ /* Title describing input field and the input field*/
+	width: 90%;
+	margin-bottom: 1em;
+}
+
+input[type="text"]{
+	box-sizing: border-box;
+	padding-left: 18px;
+}
+
+#username{ /*Blue Border around username input field*/
+	border: 2px solid rgb(105,201,208);
+}
+
+#third{ /*Last input field*/
+	margin-bottom: 3.5em;
+}
+
+#continue{ /*Continue button*/
+	margin-top: 4em;
+  margin-bottom: 1.5em;
+}
+.title{ /*Titles describing each input field*/
+	padding-left: 5px;
+}
+
+@media screen and (min-width: 480px){
+	#logo{
+		font-size: 3rem;
+    margin-left: 0.6em;
+    margin-right: 0.4em;
+		padding-top: 0.08em;
+	}
+
+  #redbluebox {
+    width: 70%;
+    max-width: 525px;
+  }
+  
+	.buttons{
+		font-size: 1.25rem;
+    height: 63px;
+		width: 180px;
+		border-radius: 20px;
+	}
+	#boxheading{
+		font-size: 1.5rem;
+    margin: 3em 0 2.5em 0;
+	}
+  header{
+		margin: 3em 3em 9em 3em;
+		justify-content: space-evenly;
+	}
+  #third{
+		margin-bottom: 5.5em;
+	}
+	.titleandinput{
+		margin-bottom: 1.25em;
+		max-width: 375px;
+	}
+	.textbox{
+		height: 60px;
+	}
+
+	#myvideos{
+		margin-left: 0.4em;
+		margin-right: 0.6em;	
+	}
+	#continue{
+		margin-top: 4em;
+	}
+
+}
+
+@media screen and (min-width: 900px) { 
+  #blank {
+    width: 245px;
+  }
+  
+  #logo {
+    order: 2;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  #myvideos {
+    order: 3;
+    margin-left: 0;
+ 		margin-right: 2.5em;
+  }
+  
+  #redbluebox{
+ 		max-width: 560px;
+ 	}
+  header{
+ 		justify-content: space-between;
+ 		margin: 3em 3em 5em 3em;
+ 	}
+
+ 	#third{
+ 		margin-bottom: 5.6em;
+ 	}
+  .titleandinput{
+ 		max-width: 450px;
+ 	}
+  #boxheading{
+		font-size: 1.5rem;
+		margin: 3.1em 0 2.5em 0;
+	}
+}

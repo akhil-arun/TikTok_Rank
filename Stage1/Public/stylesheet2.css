@@ -1,0 +1,125 @@
+/* The "border"(I didn't actually use a border) at the top of the tiktok video box is slightly too tall, and at the bottom. Also, the tiktok video itself is too tall compared to the design provided, but I used the code the professor provided. So, I am not sure if the design is wrong. According to Piazza, we are not supposed to resize the embedded video, so probably the design is wrong */
+
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Inter:wght@400;600&display=swap');
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#title{
+  margin: 1em 0;
+  font-size: 2rem;
+  font-family: 'Boogaloo', cursive;
+}
+#tiktok{
+  padding-bottom: 10px;
+}
+
+#continue{
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+	font-weight: bold;
+	background-color: rgba(238,29,82,0.9);
+	color: white;
+	border-radius: 15px;
+	width: 125px;
+	height: 45px;
+	filter: drop-shadow(0 0 5px rgba(0,0,0,0.3));
+  margin-bottom: 1em;
+}
+
+#videobox{
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+  padding: 0 10px;
+  border-radius: 15px;
+  background-color: rgba(238,29,82,0.9);
+  
+}
+
+#videoname{
+  font-family: 'Inter', sans-serif;
+  font-size: 1.25rem;
+  padding-bottom: 1.25em;
+  font-weight: bold;
+  color: white;
+  
+}
+
+#reload{
+  color: rgba(238,29,82,0.9);
+  font-size: 2.75rem;
+  background-color: white;
+  margin-bottom: 1em;
+  transform: scaleX(-1) rotate(315deg);
+}
+
+#buttons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+blockquote {
+  border-style: solid;
+  border-color: rgba(238,29,82,0.9);
+  border-width: 2px;
+  border-radius: 10px;
+  background-color: rgba(238,29,82,0.9);
+}
+
+iframe {
+  margin-top: -1px;
+  margin-left: -1px;
+}
+
+
+@media screen and (min-width: 700px){
+  #title{
+    font-size: 3rem;
+    margin-bottom: 1.5em;
+  }
+  #continue{
+    font-size: 1.25rem;
+    height: 63px;
+		width: 180px;
+  }
+  #videoname{
+    font-size: 1.5rem;
+  }
+  #reload{
+    font-size: 4rem;
+  }
+}
+
+@media screen and (min-width: 900px){
+  #reload{
+    margin-top: 0.5em;
+    
+  }
+  #buttons{
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #continue{
+    margin-right: 4em;
+    margin-top: 0.5em;
+  }
+  
+  #filler{
+    width: 260px;
+  }
+}
