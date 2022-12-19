@@ -2,8 +2,6 @@
 
 There are two different stages of the project, and they have yet to be linked together. The two parts will be linked together very shortly!
 
-File organization is kind of sloppy right now, it needs to be fixed 
-
 This project is being hosted on Replit.
 
 Note: The Play Game will currently not do anything when clicked due to the project being done in different parts
