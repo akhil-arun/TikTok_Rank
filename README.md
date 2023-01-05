@@ -1,6 +1,6 @@
 # TikTokPets
 
-There are two different stages of the project, and they have yet to be linked together. The two parts will be linked together very shortly!
+There are two different stages of the project, and they have yet to be linked together. The two parts will be linked together very shortly
 
 This project is being hosted on Replit.
 
